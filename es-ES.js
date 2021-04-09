@@ -1,150 +1,150 @@
 export default {
 	categories: {
 		gameOne: {
-			title: 'Game One',
-			desc: 'Create a game with an existing engine of your choice, e.g. GameMaker or Unity.',
+			title: 'Primer juego',
+			desc: 'Crea un juego con una motor existente a tu elección, por ejemplo: GameMaker o Unity.',
 		},
 		gameTwo: {
-			title: 'Game Two',
-			desc: 'Create a game from scratch with your engine and compiled with vitaSDK or dolceSDK.',
+			title: 'Segundo juego',
+			desc: 'Crea un juego desde 0 con tu motor y compliado con vitaSDK o dolceSDK.',
 		},
 		utility: {
-			title: 'Utility',
-			desc: 'Create a homebrew or a plugin.',
+			title: 'Herramienta',
+			desc: 'Crea un homebrew o plugin.',
 		},
 		port: {
 			title: 'Port',
-			desc: 'Port an application or a game from another system, or an emulator.',
+			desc: 'Porta una aplicación, juego o emulador de otro sistema.',
 		},
 	},
 
 	rules: {
 		submissionsLimit:
-			'Developers can submit as many submissions as they want but can only win one prize per category.',
+			'Los desarrolladores pueden presentar todo lo que quieran pero soo podrán ganar un premio por categoría.',
 		previouslySubmitted:
-			'For games, if they were previously released on another platform like PS4 or Switch, even if it is yours, it must be submitted in the port category. Utility from other homebrew scenes shall remain in the utility category though',
+			'Para los juegos, si anteriormente habían salido en otra plataforma, por ejemplo en PS4 o Switch, aunque sea tu juego, deben ser enviados a la categoría de ports. Las herramientas de homebrew de otras escenas deben ser enviadas a la categoría herramientas',
 		releasedBefore:
-			'If the game you want to submit was already released before on the PSVita, it must have been at the state of prototype and being improved to make it a complete game. For utility, the changes should be consequent to the homebrew/plugins which required lot of work.',
+			'Si el juego que quieres enviar ya había salido en PS Vita, debe quedar en estado de prototipo y tener mejoras respecto al anterior para que sea un juego completo. Para las herramientas, los cambios deben ser consecuentes ya que los homebrew/plugins requieren mucho trabajo.',
 		noPiracy:
-			'No piracy will be allowed. No use of copyrighted assets is accepted, games must be the author original creation. We do allow the use of generic free assets you can find in unity assets store for example but do note that we will value more games which use hand made assets. As for ports, do not include game files if they are not free to share. Engine made from RE are allowed, but engine made from leaked source of a game engine are not allowed.',
-		paypal: 'You must have a paypal account to receive the money.',
+			'No se permite la piratería. No se acepta el uso de bienes con copyright, los juegos deben ser creaciones originales. Permitimos el uso de bienes genéricos gratuitos, por ejemplo, los puedes encontrar en la tienda de Unity per se valorará más los bienes hechos a mano. Para los ports, no incluyas los datos del juego si no se pueden compartir. Motores hechos con RE están permitidos, pero motores hechos con con código fuente filtrado de un motor de juego no está permitido.',
+		paypal: 'Debes de tener una cuenta de paypal para recibir el premio.',
 		splashScreen:
-			'You must include the contest splash screen in the booting process of your homebrew (you can include it as a live area asset Plugins obviously can’t show the splashcreen, instead we will ask you to put a mention of the kyûHEN contest inside your readme in your repo.',
+			'Tienes que incluir la pantalla del concurso en el proceso de arranque de tu homebrew (puedes incluirlo en el asset del live area. Los plugins obviamente no pueden mostrar la pantalla, así que te pedimo que menciones el concurso kyûHEN dentro del léeme de tu repositorio.',
 		publicRelease:
-			'You can share a public build outside of our website only when we have approved it and already showcased your project on our website',
+			'Puedes publicar versiones públicas fuera de nuestra web cuando hayamos comprobado que ya has mostrado tu proyecto en nuestra web',
 		openSource:
-			'If your project is based on an open source project, you must follow the license of the open source project',
-		cheats: 'If we catch you cheating, you are automatically banned from the contest.',
+			'Si tu proyecto está basado en un proyecto de código abierto, debes seguir usando la licencia del proyecto de código abierto',
+		cheats: 'Si comprobamos que haces trampas, serás expulsado del concurso de inmediato.',
 		categoriesPrizes:
-			'Categories prizes might be subject to slight changes depending on submissions and on the amount collected.',
+			'Los premios de las categorías pueden estar sujetos a pequeños cambios dependiendo de los proyectos y de la cantidad monetaria recolectada.',
 	},
 
 	pages: {
 		home: {
-			title: 'Home',
-			slogan: 'Who can brew the best',
+			title: 'Inicio',
+			slogan: 'El que pueda crear lo mejor',
 			categories: {
 				homebrew: 'homebrew',
-				game: 'game',
-				utility: 'utility',
+				game: 'juego',
+				utility: 'herramienta',
 				port: 'port',
 			},
-			donate: 'Donate',
-			submit: 'Submit',
-			submittedProjects: 'Submitted projects',
-			aboutTitle: 'About',
+			donate: 'Donar',
+			submit: 'Enviar',
+			submittedProjects: 'Proyectos enviados',
+			aboutTitle: 'Conócenos',
 			aboutContent1:
-				"From an innocent conversation on Twitter to a reality, we are making the 3rd Homebrew contest for the PSVita. These past few days/months have been incredible for the PSVita. From a silent scene to an outburst of unlocked possibilities like the Dreamcast emulators, GTA games on PSVita and Sonic games being ported, Piglet (GLES 2.0 library) found and VitaGL being more complete than ever, there has been a sudden change in the PSVita scene despite the fact that the vita is close to put another foot in its grave with the recent rumors about the PS Store closing for the PSVita, the future isn't looking that gloomy for the vita. (Which is why we decided to call the contest KyûHEN which means sudden change)",
+				"De una inocente conversación en Twitter a la realidad, estamos haciendo el 3er concurso de homebrew para la PS Vita. Los últimos días/meses han sido increíbles para la PS Vita. De una escena silenciosa  a las abrumadoras posibilidades como emuladores de Dreamcast, juegos de GTA en PS Vita y juegos de Sonic siendo portados, Piglet (librería GLES 2.0) con un VitaGL más completo que nunca, ha habido un cambio repentino en la escena de PS Vita sin importar que la vita está cerca de poner otro clavo en su ataúd con las últimas noticias de que PS Store cierra en PS Vita, el futuro no parece muy brillante para la vita. (Por eso decidimos llamar al concurso KyûHEN, que significa, cambio repentino)",
 			aboutContent2:
-				'We want to help the Vita scene to pursue that change by growing the interest about the homebrew scene with this contest. Calling people to create new contents for the PSVita using tools like VitaGL, SDL, Unity, Piglet for games, and the vita/dolce SDK. If you want to be part of the journey and contribute with your project, then welcome to the KyûHEN contest!',
+				'Queremos ayudar a la escena de PS Vita para llegar a ese cambio aumentando el interes por la escena de homebrew en este concurso. Un llamado para que la gente cree contenido para la PS Vita usando herramientas como VitaGL, SDL, Unity, Piglet para los juegos, y los SDK vita/dolce. Si quieres ser parte de la aventura y contribuir con tu proyecto, entonces, ¡bienvenido al concurso KyûHEN!',
 			cimmerianDesc:
-				'I am one of the moderators of Custom Protocol (French hacking website as well as a former GekiHEN creator). I love using my knowledge to assist people navigating the Vita hacking scene in the henkaku and Vita Nuova discord’s and through my Vita troubleshooting guides. I frequently contribute to homebrew projects with beta testing and translation. You can contact me through my Discord and Twitter.',
+				'Soy uno de los moderadores de Custom Protocol (web de hacking Francesa y anteriormente uno de los creadores de GekiHEN). Me gusta usar mi conocimiento para ayudar a la gente a navegar en la escena de hackeo de la PS Vita en los servidores de Discord de henkaku y en el de Vita Nuova y con mis guías de problemas de la PS Vita. Suelo contribuir en proyectos de homebrew projects con el testeo y traduciendo. puedes contactarme por Discord y Twitter.',
 			oldGamingDesc:
-				'My name is Sandeep Rai, also known as “2 Old 4 Gaming” on Twitter and YouTube. I have been a gamer for most of my life. I have fond memories of sitting in front the TV and playing my NES with my brother, but as an adult I’ve found handheld gaming just suited my life better. The PlayStation Vita, with its varied library of games and portability, has been my device of choice when it comes to gaming. My passion for the Vita and its games inspired me to not only write a series of books about the history of the system but also start my YouTube channel. You can find me at my Twitter, and Youtube.',
+				'Mi nombre es Sandeep Rai, también conocido como “2 Old 4 Gaming” en Twitter y YouTube. He sido un jugador casi toda mi vida. Tengo buenos recuerdos sentando frente a la TV y jugar a la NES con mi hermano, pero como adulto he encontrado que las consolas portátiles me han mejorado la vida. La PlayStation Vita, con su gran librería de juegos y portabilidad, ha sido mi dispositivo favorito para jugar. Mi pasión por la PS Vita y sus juegos me inspiró no solo a escribir una serie de libros sobre el sistema, también a crear mi canal de YouTube. Puedes encontrarme en mi Twitter, y Youtube.',
 			frangarcjDesc:
-				'One of the maintainers of VITASDK and main Retroarch PS Vita developer. I am also involved in the Vita3K emulator development. I have been active in the scene since Rejuvenate times but real life has reduced my time available for development. Nowadays my main contributions are helping and assisting other developers in the HENkaku and Vita Nuova Discords. You can find me at my Twitter, and GitHub.',
+				'Uno de los principales mantenedores de VITASDK y principal desarrollador de Retroarch para PS Vita. También estoy involucrado en el desarrollo del emulador Vita3K. He estado activo en la escena desde los tiempos de Rejuvenate pero la vida real ha reducido el tiempo que tengo para el desarrollo. Mis principales contribuciones son ayudar y asistir a otros desarrolladores en los servidores de Discord de HENkaku y en el de Vita Nuova. Puedes encontrarme en mi Twitter, y mi GitHub.',
 		},
 		details: {
-			title: 'Details',
+			title: 'Detailles',
 			intro: {
-				title: 'Intro',
+				title: 'Introducción',
 				content1:
-					'The contest will last 2 months so until the 27 may. Through this contest we want to promote creativity and originality with Game One and Game Two. We joined forces with a professional in that field who publish games for PSVita in order to also help amateur developers to grow up and improve their skills with critics from an expert in that field. In the past (PSP era mostly, alongside PS3 era), the hacking scene was at its peak with an active community, forums and legends from the scene (DarK Alex, or geohot to name a few) fueled us with magic on our hands and raised a large interest into hacking their Sony devices. As time goes further, with devices like PS4 and PS5 and the security being tougher and tougher, the hacking community activity decreased with the loss of important websites like qj.net or PSPGen. ',
+					'El concurso durará 2 meses así que acaba el 27 de mayo. Con este concurso queremos promover la creatividad y originalidad con las categorías "Primer juego" y "Segundo juego". Unimos fuerzas con un profesional en ese campo que publica juegos para PS Vita para ayudar a los nuevos desarrolladores a que crezcan y mejoran sus habilidades con críticas de un experto en ese campo. En el pasado (la mayoría en la era de la PSP, y la era de la PS3), la escena del hackeo estaba en su máximo esplendor con una comunidad activa, foros y leyendas de la escena (DarK Alex, o geohot por nombrar unos cuantos) nos ayudaron con sus mágicas manos y nos surgió un gran interés en hackear nuestros dispositivos Sony. En los siguientes tiempos, con dispositivos como PS4 y PS5 y la seguridad siendo cada vez más fuerte, la actividad de comunidad de hacking disminuyó con la pérdida de grandes webs como qj.net o PSPGen. ',
 				content2:
-					'This contest, with the involvement of Wololo, PSX-Place and PlayStationHaX is the occasion to light up that lost fire in our community and hopefully raise the interest about hacking their device again. This contest is born from the will of the community to have one after the recent improvement, and we are making it into a reality. But for it to be successful we need you!',
+					'Este concurso, con la involucración de Wololo, PSX-Place y PlayStationHaX es la ocasión de avivar ese fuego en nuestra comunidad y esperemos que aumente el interés en que la gente hackee su dispositivo. Este concurso nade de la voluntad de la comunidad de tener un lugar tras las últimas mejoras, y estamos haciéndolo realidad. Pero, ¡para conseguirlo te necesitaoms!',
 			},
 			process: {
-				title: 'The Process',
-				content: 'The contest will proceed via 3 simple steps:',
+				title: 'El proceso',
+				content: 'El concurso procederá en 3 simples pasos:',
 				step1:
-					'Each participant will submit their projects into the 4 categories listed below. The contest will last 2 months from March 27 to May 27.',
+					'Cada participante enviará sus proyectos en las siguientes 4 categorías. El concurso durará 2 meses desde el 27 de marzo al 27 de  mayo.',
 				step2:
-					'The jury will judge the projects and make their own ranking per category, we will merge those rankings to make an overall ranking assessment.',
+					'El jurado juzgará los proyectos y harán su clasificación por categoría, uniremos esas clasificaciones para hacer una media entre todas las clasificaciones.',
 				step3:
-					'The prize pool will be split according to the prize share chart that you can find in the rules and info section.',
+					'El premio se dividirá acorde a la tabla de premios que puedes encontrar en las secciones "Los premios" y "Las reglas".',
 			},
 			categories: {
-				title: 'The four Categories',
+				title: 'Las cuatro categorías',
 			},
 			voting: {
-				title: 'The Vote',
+				title: 'El voto',
 				content1:
-					'The jury will individually submit a post explaining how they made their ranking which will cover what they liked, disliked, any idea of improvement and advices for the said project.',
+					'El jurado enviará individualmente un correo explicando cómo han hecho su clasificación en la que cubrirá lo que les ha gustado, lo que no y cualquier idea de mejora o consejos para dicho proyecto.',
 				content2:
-					'A general ranking will be made with all the jurors ranking. Result will be displayed in the contest website.',
+					'Una clasificación general se realizará con la clasificación de todos los jurados. Los resoltados aparecerán en la web del concurso.',
 			},
 			prizes: {
-				title: 'The Prizes',
-				contentStart: 'We will share the prize pool collected on',
-				donationPlatform: 'our Ko-Fi',
-				contentMiddle: ' (which starts with ',
+				title: 'Los premios',
+				contentStart: 'Compartiremos lo recaudado',
+				donationPlatform: 'nuestro Ko-Fi',
+				contentMiddle: ' (que empieza con ',
 				amountCollected: '455 $',
-				contentEnd: ' thanks to our sponsors) amongst the 4 categories as show below.',
+				contentEnd: ' gracias a nuestros patrocinadores) justo a las 4 categorías de abajo.',
 				conclusion:
-					'We will then decide how much we share amongst one category between 1st place, 2nd place, 3rd place (or more) depending on the number of submissions in each category.',
+					'Decidiremos cuánto daremos en cada categoría al 1ª posición, 2ª posición, 3ª posición (o más) dependiendo del número de proyectos de cada categoría.',
 			},
 			rules: {
-				title: 'The Rules',
+				title: 'Las reglas',
 				splashScreen:
-					'This is the splashscreen that must be used at the boot of your game/homebrew/port:',
+					'Esta es la imagen que debe ser usada en el inicio de tu juego/homebrew/port:',
 			},
 			contact: {
-				title: 'Contact',
-				intro: 'Have any questions about the contest? Want to have a chat with us?',
-				contentStart: 'You can either send an e-mail to ',
-				contentMiddle: ' or a DM to our Twitter ',
+				title: 'Contacto',
+				intro: '¿Tienes preguntas sobre el concurso ¿Quieres hablar con nosotros?',
+				contentStart: 'Puedes enviar un e-mail a ',
+				contentMiddle: ' o un MD a nuestro Twitter ',
 				contentEnd: '.',
 			},
 		},
 		resources: {
-			title: 'Resources',
-			pageTitle: 'Tools',
+			title: 'Recursos',
+			pageTitle: 'Herramientas',
 			vitaSDK: {
 				title: 'VitaSDK',
-				setupUnity: 'How to setup Unity for the PS Vita',
-				deployProject: 'How to easily deploy a project on the PS Vita',
-				gameMakerExportTool: 'GameMaker Studio PS Vita export tool',
+				setupUnity: 'Cómo preparar Unity para la PS Vita',
+				deployProject: 'Cómo implementar fácilmente un proyecto en PS Vita',
+				gameMakerExportTool: 'Herramienta de exportación de GameMaker Studio para PS Vita',
 			},
-			helpingTools: 'Tools that make your life just a bit easier',
+			helpingTools: 'Herramientas que te harán la vida más fácil',
 			debuggingTools: {
-				title: 'Useful debugging tools',
-				gdbVita: 'GDB for Vita (not convenient)',
+				title: 'Herramientas útiles de depuración',
+				gdbVita: 'GDB para Vita (no es conveniente)',
 			},
 			discordServers: {
-				title: 'Useful Discord servers',
-				henkakuSpecialities: 'mainly VitaSDK',
-				nuovaSpecialities: 'mainly VitaSDK',
-				cbpsSpecialities: 'mainly DolceSDK/Unity/GameMaker',
+				title: 'Servidores de Discord útiles',
+				henkakuSpecialities: 'principalmente VitaSDK',
+				nuovaSpecialities: 'principalmente VitaSDK',
+				cbpsSpecialities: 'principalmente DolceSDK/Unity/GameMaker',
 			},
 		},
 		submissions: {
-			title: 'Submissions',
+			title: 'Envío',
 			temp: {
-				contentStart: 'As the submission system is not yet completely finished, please use this ',
-				contentLink: 'Google Form',
-				contentEnd: ' for now.',
-				outro: "We're trying to finish it as soon as possible.",
-				thanks: 'Thank you for your understanding.',
+				contentStart: 'Hasta que el sistema de envíos no esté completo, por favor usa esto ',
+				contentLink: 'Formulario de Google',
+				contentEnd: ' por el momento.',
+				outro: "Estamos intentando implementarlo lo antes posible.",
+				thanks: 'Gracias por tu paciencia.',
 			},
 		},
 	},
@@ -155,10 +155,10 @@ export default {
 
 	others: {
 		comingSoon: {
-			top: 'coming',
-			bottom: 'soon...',
-			detailsStart: 'The submission page will be open on ',
-			detailsDate: 'April 8',
+			top: 'Dentro e',
+			bottom: 'poco...',
+			detailsStart: 'La página de envío estará disponible el ',
+			detailsDate: '8 de abril',
 			detailsEnd: '',
 		},
 	},
