@@ -69,7 +69,7 @@ export default {
 			intro: {
 				title: 'Intro',
 				content1:
-					'The contest wil last 2 months, so, until the 27th of May. Through this contest, we want to promote creativity and originality thanks to the two featured Game categories. We also joined forces with a professional in the gaming industry in order to help amateur developers grow up and improve their skills thanks to the suggestions an expert in the sector can give.',
+					'The contest will last 2 months, so, until the 27th of May. Through this contest, we want to promote creativity and originality thanks to the two featured Game categories. We also joined forces with a professional in the gaming industry in order to help amateur developers grow up and improve their skills thanks to the suggestions an expert in the sector can give.',
 				content2:
 					'During the past years, we've seen an inevitable decrease in interest towards homebrew scenes due to the popularity of smartphones and due to security measures strengthening generation after generation. This contest, with the involvement of Wololo, PSX-Place and PlayStationHaX, is the occasion to light up that lost fire in our community and hopefully raise the interest towards homebrew again. KyûHEN is born from the will of the community to have an homebrew contest after the recent improvements in the scene, and we are turning it into reality. But for it to be successful, we need you!',
 			},
