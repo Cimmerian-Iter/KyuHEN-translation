@@ -110,7 +110,7 @@ export default {
 			},
 			contact: {
 				title: 'Contacts',
-				intro: 'Do you have any questions about the contest? Do you waant to have a chat with us?',
+				intro: 'Do you have any questions about the contest? Do you want to have a chat with us?',
 				contentStart: 'You can either send an e-mail to ',
 				contentMiddle: ' or a DM to our Twitter ',
 				contentEnd: '.',
